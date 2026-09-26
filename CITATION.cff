@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the RCS-ARDL manuscript."
+title: "rcsardl: Robust Cross-Sectionally Augmented ARDL adjustment estimator for Stata"
+type: software
+version: "0.1.5"
+date-released: "2026-09-26"
+license: MIT
+authors:
+  - family-names: "Yalnız"
+    given-names: "Zehra"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Yalnız"
+      given-names: "Zehra"
+  title: "Robust Estimation of Equilibrium Adjustment in Cross-Sectionally Dependent Dynamic Panels: The RCS-ARDL Approach"
+  year: 2026
+  notes: "Manuscript submitted to Empirical Economics"

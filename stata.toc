@@ -1,0 +1,4 @@
+v 3
+d Materials by Zehra Yalnız
+d RCS-ARDL Stata package
+p rcsardl Robust Cross-Sectionally Augmented ARDL adjustment estimator
