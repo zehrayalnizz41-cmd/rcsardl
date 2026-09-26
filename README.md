@@ -46,7 +46,7 @@ help rcsardl
 After this repository is published, installation will use the repository's raw-content path:
 
 ```stata
-net install rcsardl, from("https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/rcsardl/main/")
+net install rcsardl, from("https://raw.githubusercontent.com/zehrayalnizz41-cmd/rcsardl/main/")
 ```
 
 Replace `YOUR-GITHUB-USERNAME` with the actual GitHub username before publishing the installation instructions.
