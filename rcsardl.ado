@@ -15,7 +15,7 @@
 
 capture program drop rcsardl
 program define rcsardl, eclass sortpreserve
-    version 19.0
+    version 17.0
 
     syntax varlist(ts numeric min=3) [if] [in], PANEL(varname numeric) TIME(varname numeric)
 
