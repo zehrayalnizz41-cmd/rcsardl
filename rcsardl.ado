@@ -1,5 +1,5 @@
 *! rcsardl.ado
-*! Version 0.1.5  26sep2026
+*! Version 0.1.6  28sep2026
 *! RCS-ARDL point estimator implementing the frozen V3 adjustment algorithm
 *! Method: Zehra Yalnız (2026), "Robust Estimation of Equilibrium Adjustment in
 *! Cross-Sectionally Dependent Dynamic Panels: The RCS-ARDL Approach"
@@ -41,7 +41,8 @@ program define rcsardl, eclass sortpreserve
     capture noisily xtdcce2 `depvar' if `touse', ///
         lr(`lrlist') ///
         lr_options(ardl) ///
-        cr(`depvar' `indepvars') cr_lags(1)
+        cr(`depvar' `indepvars') ///
+        reportconstant
 
     if _rc {
         di as error "Conventional CS-ARDL estimation failed (xtdcce2 return code = " _rc ")."
