@@ -1,8 +1,9 @@
 v 3
-d rcsardl: Robust Cross-Sectionally Augmented ARDL adjustment estimator
+d rcsardl: Robust Cross-Sectionally Augmented ARDL estimator
 d
-d Version 0.1.5, 26 September 2026
+d Version 0.4.0, 28 September 2026
 d Author: Zehra Yalnız
+d Requires: Stata 17 or later; xtdcce2
 d License: MIT
 d
 f rcsardl.ado
